@@ -1,0 +1,282 @@
+/* CSS for jQuery Orbit Plugin 1.3.0
+* www.ZURB.com/playground
+* Copyright 2010, ZURB
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+/* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
+   ================================================== */
+#featuredslider,#featuredfullslider { 
+	background: #fff url('orbit/loading.gif') no-repeat center center;
+	overflow: hidden; 
+}
+.slider-attach { border: 1px solid #2AEEEE;}
+.image-gallery-slider{width: 0px;height: 0px;}
+.slider-portfolio {}
+.default-slider-image {   width: 100%;}
+/* CONTAINER
+   ================================================== */
+div.orbit-wrapper { position: relative; }
+div.orbit {position: relative; overflow: hidden }
+ div.orbit.with-bullets {
+    margin-bottom: 40px;
+}
+.image-gallery-slider.orbit.with-bullets {
+    margin-bottom: 0;
+}
+div.orbit>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+}
+.image-gallery-slider img { height:270px !important; }
+div.orbit>a {
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0; 
+    display: none; }
+.orbit>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
+/* TIMER
+   ================================================== */
+div.timer {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 11; }
+.slider-attach .timer {
+    z-index: -99;
+}
+span.rotator {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    background: url(orbit/rotator-black.png) no-repeat;
+    z-index: 3; }
+span.mask {
+    display: block;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow: hidden; }
+span.rotator.move {
+    left: 0 }
+span.mask.move {
+    width: 40px;
+    left: 0;
+    background: url(orbit/timer-black.png) repeat 0 0; }
+span.pause {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(orbit/pause-black.png) no-repeat;
+    z-index: 4;
+    opacity: 0; }
+span.pause.active {
+    background: url(orbit/pause-black.png) no-repeat 0 -40px }
+div.timer:hover span.pause,
+span.pause.active {
+    opacity: 1 }
+/* CAPTIONS
+   ================================================== */
+.orbit-caption {
+    display: none;
+     }
+#slider .title {
+    font-size: 23px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+#slider .title a {
+    color: #FFFFFF;
+	font-family: Droid Serif;
+	text-decoration: none;
+}
+.orbit-caption .entry{margin-bottom:0px;}
+.orbit-caption .getbtn a{ color: #2AACC8;}
+.orbit-wrapper .orbit-caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    bottom: 21px;
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 147px;
+    left: 20px;
+    max-height: 147px;
+	overflow:hidden;
+    padding:26px 25px;
+    position: absolute;
+    width: 34%;
+    z-index: 9;}
+
+/* DIRECTIONAL NAV
+   ================================================== */
+div.slider-nav { display: block }
+div.slider-nav span {cursor: pointer;  height: 99px;  position: absolute;  text-indent: -9999px;   width: 36px;   z-index: 9; }
+div.slider-nav span.right { background: url("orbit/right-arrow-hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.5);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";  right: 553px; top: 194px;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; }
+.slider-attach .slider-nav .right {  right: 0; top: 85px;}
+div.slider-nav span.left { background: url("orbit/left-arrow-hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.5);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";  left: 411px; top: 294px;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s;}
+.slider-attach .slider-nav .left { left: 0;  top: 85px;}
+div.slider-nav span.left:hover{ background: url("orbit/left-arrow-hover.png") no-repeat scroll 0 0 #2AACC8;opacity:.5; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=70);	 -moz-opacity: 0.5; -khtml-opacity: 0.5;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s;}
+div.slider-nav span.right:hover { background: url("orbit/right-arrow-hover.png") no-repeat scroll 0 0 #2AACC8;opacity:.5;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=70);	 -moz-opacity: 0.5; -khtml-opacity: 0.5;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s;}
+
+/* Fullwidth slider
+----------------------------------------------*/
+.page-template-template-fullwidthslider-php div.slider-nav span.right { right: 0;   top: 40%;}
+.page-template-template-fullwidthslider-php div.slider-nav span.left { left: 0;  top: 40%;}
+.page-template-template-fullwidthslider-php #featuredfullslider img {  height: 100%;}
+.page-template-template-fullwidthslider-php #featuredslider img {  height: 100%;}
+.page-template-template-fullwidthslider-php .slider-full{padding-top:0px; height:auto;}
+.page-template-template-fullwidthslider-php div.orbit.with-bullets{ margin-bottom: 0px;}
+.page-template-template-fullwidthslider-php .orbit-wrapper.fluid .orbit-bullets{ bottom: -9px;}
+.page-template-template-fullwidthslider-php  .orbit-wrapper .orbit-caption{background:none; height: 86px;}
+.page-template-template-fullwidthslider-php #slider .title{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";  display: inline;  float: left;  font-size: 20px; line-height: 35px; margin-bottom: 5px;  padding: 3px 10px;}
+.page-template-template-fullwidthslider-php .orbit-caption .entry{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";  float: left;  font-size: 13px;   padding: 10px;}
+
+/* BULLET NAV
+   ================================================== */
+.orbit-bullets {
+    position: absolute;
+    z-index: 10;
+    list-style: none;
+    bottom: -50px;
+    left: 50%;
+	  margin-left: -50px;
+    padding: 0; }
+.orbit-bullets li {
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #999;
+    text-indent: -9999px;
+    background: none repeat scroll 0 0 #FDFDFD;
+	border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    width: 8px;
+    height: 8px;
+    overflow: hidden; position: relative;top:1px; }
+.slider-attach .orbit-bullets li {
+    height: 7px;
+    width: 7px;
+	top:0;
+  	border:none;
+}
+.slider-portfolio .orbit-bullets li {
+    margin: 0 0 0 5px;
+	height: 7px;
+    width: 7px;
+	top:0;
+  	border:none;
+}
+.orbit-bullets li.active {  background: none repeat scroll 0 0 #222222;
+    border: 3px solid #000000;
+    height: 5px;
+    opacity: 0.5;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=50);	 -moz-opacity: 0.5; -khtml-opacity: 0.5;
+    top: 0;
+    width: 5px;}
+.slider-attach .orbit-bullets li.active {
+    height: 7px;
+    width: 7px;
+	top:0;
+  	border:none;
+	
+}    
+.slider-portfolio .orbit-bullets li.active {
+    height: 7px;
+    width: 7px;
+	top:0;
+	border:none;
+}
+.orbit-bullets li.has-thumb {
+    background: none;
+    width: 100px;
+    height: 75px; } }
+.orbit-bullets li.active.has-thumb {
+    background-position: 0 0;
+    border-top: 2px solid #000; }
+/* FLUID LAYOUT
+   ================================================== */
+.orbit-wrapper.fluid .orbit .fluid-placeholder {
+    visibility: hidden;
+    position: static;
+    display: block;
+    width: 100%; }
+.orbit-wrapper.fluid .orbit, .orbit-wrapper.fluid {  width: 100% !important; }
+#featuredslider{  height: 414px  !important; overflow:hidden;}
+#featuredfullslider{  height: 414px  !important;overflow:hidden;}
+.image-gallery-slider {  height: 270px !important; }
+.orbit-wrapper.fluid .orbit-bullets {
+    position: absolute;
+    z-index: 10;
+    list-style: none;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -50px;
+    padding: 0; }
+.slider-attach .orbit-wrapper.fluid .orbit-bullets {
+    bottom: -20px;
+}
+/*** portfolio slider
+-----------------------------------------*/
+#container-isotop .slider-portfolio { display: inline-block; width: 220px;}
+.slider-portfolio .timer {  z-index: -99; }
+.portfolio-gallery-slider{ height: 162px !important;}
+#content .slider-portfolio .orbit-wrapper.fluid .orbit-bullets {  bottom: 6px;margin-bottom: 0; }
+.slider-portfolio .orbit.with-bullets{margin-bottom:0px;}
+
+.sider-link-box { height: 100%; position: absolute; width: 100%;top:0px; }
+/*  Media screen 
+--------------------------------------------------------*/
+@media handheld, only screen and (min-width: 1024px) {
+}
+/****************max-width: 960px**************/
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  div.slider-nav span.left{background: url("orbit/left-arrow-hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.5);  left: 321px;  top: 294px;}
+  div.slider-nav span.right { background: url("orbit/right-arrow-hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.5); right: 379px; top: 194px;}
+}
+/****************max-width: 767px**************/
+@media only screen and (max-width: 767px) {
+.slider-full {height: 345px;}
+	#featuredslider{height: 294px !important;}
+	#featuredfullslider{height: 294px !important;}
+	div.slider-nav span.left{left: 231px;  top: 174px;}
+  	div.slider-nav span.right {right: 203px; top: 74px;}
+}
+/****************max-width: 480px**************/
+@media only screen and (max-width: 480px) {
+.slider-full { height: 200px; }
+ #featuredslider{ height:153px !important;}
+ #featuredfullslider{height:153px !important;}
+  div.slider-nav span{  top: 20%; }
+  div.slider-nav span.right {background: url("orbit/right-arrow-hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.7); right: 0;top: 31px;}
+  div.slider-nav span.left { background: url("orbit/left-arrow-hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.7);  left: 0;  top: 31px; }
+  .page-template-template-fullwidthslider-php .slider-full {padding-top: 0; }
+  .page-template-template-fullwidthslider-php div.slider-nav span.right { right: 0;   top: 20%;}
+  .page-template-template-fullwidthslider-php div.slider-nav span.left { left: 0;  top: 20%;}
+  .orbit-caption{ display:none !important; }
+}

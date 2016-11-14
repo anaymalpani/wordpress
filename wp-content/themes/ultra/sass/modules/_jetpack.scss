@@ -1,0 +1,136 @@
+/*--------------------------------------------------------------
+15.1 - Contact Form
+--------------------------------------------------------------*/
+div[id*="contact-form"] {
+
+	div {
+
+		label {
+  			margin-bottom: 0.25em;
+		}
+
+		input,
+		input[type='text'],
+		input[type='email'],
+		textarea {
+			margin-bottom: 1.33929em;
+		}
+	}
+
+	.contact-submit {
+		margin-top: 0.44643em;
+	}	
+
+	h3 {
+		@include font-size(1.28571);
+		line-height: 1.38889em;
+		margin: 0;
+	}
+
+	blockquote {
+		@include font-size(1);
+		line-height: 1.78571em;
+	}	
+}
+
+/*--------------------------------------------------------------
+15.2 - Contact Info
+--------------------------------------------------------------*/
+.widget_contact_info .contact-map {
+	margin-bottom: 0.89286em;
+}
+
+/*--------------------------------------------------------------
+15.3 - Display Posts
+--------------------------------------------------------------*/
+.widget_jetpack_display_posts_widget {
+
+	.jetpack-display-remote-posts h4 {
+  		font-size: 1.0769em !important;
+  		font-weight: normal;
+  		margin: 0.89286em 0 !important;	
+  		
+  		~ a {
+  			display: block;
+  			margin-bottom: 0.89286em;
+  		}
+	}
+
+	.jetpack-display-remote-posts p {
+		margin: 0 0 1.78571em 0 !important;
+	  	line-height: 1.7857 !important;
+	  	font-size: 100%;
+	}	
+}
+
+/*--------------------------------------------------------------
+15.4 - Gravatar Profile
+--------------------------------------------------------------*/
+#secondary .widget-grofile {
+
+	h4 {
+		font-size: 1.0769em;
+		line-height: 1.7857;
+		margin: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+15.5 - Infinite Scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+15.6 - RSS Links
+--------------------------------------------------------------*/
+.widget_rss_links {
+
+	p {
+		margin: 0 0 0.89286em;
+		
+		img {
+			display: block;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+15.7 - Subscriptions
+--------------------------------------------------------------*/
+p.comment-subscription-form {
+	margin-bottom: 0.25em; 
+	
+	input[type="checkbox"] {
+		display: inline-block !important;
+		@include font-size(0.92857);
+		line-height: 1.92308em;
+		margin-right: 0.25em;
+		vertical-align: middle;
+	}
+
+	label.subscribe-label {
+		display: inline-block !important;
+		@include font-size(0.92857);
+		font-weight: normal;
+		line-height: 1.92308em;
+		margin-bottom: 0; 
+		vertical-align: middle;
+	}
+}
+
+#subscribe-email {
+	margin-bottom: 0.89286em;
+
+	input {
+		padding: 0.6429em 0.7143em !important;
+	}
+}

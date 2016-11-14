@@ -1,0 +1,87 @@
+/* Custom Classes
+------------------------------------------------------------ */
+#content .project_wrap dd { margin-bottom: 2px; }
+#content #isofilters {  margin-bottom: 0; margin-left: 0;}
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+.maingroup { border-bottom: 1px solid #dfe1e5; border-top: 1px solid #dfe1e5; padding:15px 0;}
+* html .group { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+/* Filter */
+.project_wrap dl { margin-bottom: 10px; color: #000; }
+.project_wrap dt, .project_wrap dd { float: left; }
+.project_wrap dt { margin-right: 5px; }
+.filter li {  float: left; list-style-type: none;  margin: 0 0 0 2px;line-height: 30px;}
+.filter a { padding:6px 15px; color: #000; text-decoration: none; }
+.filter a:hover  { background:none repeat scroll 0 0 #81E4ED;color:#000000 !important}
+.filter li .selected { background:none repeat scroll 0 0 #81E4ED;  color: #000000 !important;}
+/* Portfolio Items */
+#content .portfolio .isotope-item { float: left;  height: 192px;  width: 250px;margin: 0; }
+#container-isotop {margin-top: 38px;margin-left: 0px;}
+#content .project_wrap .isotope-item img { border: 1px solid #2AACC8; display: inline-block; float: left; height: 160px; width: 218px; }
+.video-link-box { height: 100%; position: relative; width: 100%; }
+.video-link-box a { none no-repeat scroll 0 0 transparent; display: block; height: 54px; left: 34%; opacity: 0.7; position: absolute; top: 36%; transition: opacity 0.5s ease-in-out 0s; width: 80px; }
+.video-link-box a:hover {opacity:1;}
+
+/**** Isotope filtering ****/
+
+.isotope-item { z-index: 2; }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+.isotope-item { z-index: 2; }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+.isotope,
+.isotope .isotope-item { /* change duration value to whatever you like */ -webkit-transition-duration: 0.8s;  -moz-transition-duration: 0.8s; 	  transition-duration: 0.8s; }
+.isotope { -webkit-transition-property: height, width;  -moz-transition-property: height, width; 	  transition-property: height, width; }
+.isotope .isotope-item { -webkit-transition-property: -webkit-transform, opacity;  -moz-transition-property:    -moz-transform, opacity; 	  transition-property:         transform, opacity; }
+
+/* Custom Classes
+------------------------------------------------------------ */
+#content .project_wrap dd { margin-bottom: 2px; }
+#content #isofilters {  margin-bottom: 0;}
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+.maingroup { border-bottom: 1px solid #dfe1e5; border-top: 1px solid #dfe1e5; padding:15px 0;}
+* html .group { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+/* Filter */
+.project_wrap dl { margin-bottom: 10px; color: #000; }
+.project_wrap dt, .project_wrap dd { float: left; }
+.project_wrap dt { margin-right: 5px; }
+.filter li {  float: left; list-style-type: none;  margin: 0 0 0 2px;line-height: 30px;}
+.filter a { padding:6px 15px; color: #000; text-decoration: none; }
+.filter a:hover  { background:none repeat scroll 0 0 #81E4ED;color:#000000 !important}
+.filter li .selected { background:none repeat scroll 0 0 #81E4ED;  color: #000000 !important;}
+/* Portfolio Items */
+#content .portfolio .isotope-item { float: left;  height: 192px;  width: 250px;margin: 0; }
+#container-isotop {margin-top: 38px;margin-left: 0px;}
+#content .project_wrap .isotope-item img { border: 1px solid #2AACC8; display: inline-block; float: left; height: 160px; width: 218px; }
+.video-link-box { height: 100%; position: relative; width: 100%; }
+.video-link-box a { background: none no-repeat scroll 0 0 transparent; display: block; height: 54px; left: 34%; opacity: 0.7; position: absolute; top: 36%; transition: opacity 0.5s ease-in-out 0s; width: 80px; }
+.video-link-box a:hover {opacity:1;}
+
+/**** Isotope filtering ****/
+
+.isotope-item { z-index: 2; }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+.isotope-item { z-index: 2; }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+.isotope,
+.isotope .isotope-item { /* change duration value to whatever you like */ -webkit-transition-duration: 0.8s;  -moz-transition-duration: 0.8s; 	  transition-duration: 0.8s; }
+.isotope { -webkit-transition-property: height, width;  -moz-transition-property: height, width; 	  transition-property: height, width; }
+.isotope .isotope-item { -webkit-transition-property: -webkit-transform, opacity;  -moz-transition-property:    -moz-transform, opacity; 	  transition-property:         transform, opacity; }
+
+
+/****************************/
+
+@media only screen and (min-width: 768px) and (max-width: 960px) { 
+/************portfolio****************/
+#content .portfolio .isotope-item {height: 182px;  width: 221px;margin: 0 11px; }
+	.zoom-img { right: 32%; }
+	.link-post {left: 32%;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {.project_image {    border: 1px solid #2AACC8;    box-shadow: 0 5px 5px -3px #222222;    margin: 0 auto;    position: relative;    width: 215px;}
+.project_title {    float: left;    margin: 12px 0 0;    text-align: center;    width: 100%;}
+}
+
+@media only screen and (max-width: 480px) {
+#container-isotop {  margin-left: 33px;  }
+}

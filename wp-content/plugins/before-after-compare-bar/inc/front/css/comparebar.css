@@ -1,0 +1,16 @@
+/*- CompareBar Front End Style
+--------------------------------------*/
+#comparebar {width:315px;background:#750400;padding:5px;font-family:arial;position:relative;box-sizing:content-box;-moz-box-sizing: content-box;}
+#comparebar .cbar_clear{clear:both;}
+#comparebar .cbar_title{color: #FFFFFF;font-size: 12px; line-height:14px;text-align: center; text-transform: uppercase; margin-bottom: 3px;}
+#comparebar .cbar_images{}
+#comparebar .cbar_images .cimg{position:relative;line-height:0;width:155px;height:220px;}
+#comparebar .cbar_images .cbar_fimg{float:left;}
+#comparebar .cbar_images .cbar_simg{float:right;}
+#comparebar .cbar_images img{background:#fafafa;border-radius:0;box-shadow:none;cursor:pointer;width:155px;height:220px;}
+#comparebar .cbar_images .cbar_hov_desp{display:none;background:url('../../images/trans_bg.png');border-radius: 2px 2px 2px 2px; color: #FFFFFF; font-size: 12px; left: 0; line-height: 15px; margin: 0 auto;padding: 5px; position: absolute; right: 0; top: 30px; width: 120px;} 	
+#comparebar .cbar_images .cbar_imgttl{background: none repeat scroll 0 0 #000000; bottom: 0px; color: #FFFFFF; font-family: 'Open Sans'; font-size: 14px; font-weight: bold; line-height: 26px; padding: 2px 3px; position: absolute; text-transform: uppercase;}
+#comparebar .cbar_images .cbar_fimg .cbar_imgttl{right:20px;}
+#comparebar .cbar_images .cbar_simg .cbar_imgttl{left:19px;}
+#comparebar .cabr_bt_titles .cbar_comptxt{bottom: 4px;*bottom: 7px; color: #FFFFFF; font-family: tahoma; font-size: 29px; font-weight: bold; height: 31px; left: 0; line-height: 31px; margin: 0 auto; overflow: hidden; position: absolute; right: 0; text-align: center; text-transform: uppercase;} 	
+#comparebar .cabr_bt_titles .cbar_comptxt span{background: none repeat scroll 0 0 #750400;padding: 0 3px;}

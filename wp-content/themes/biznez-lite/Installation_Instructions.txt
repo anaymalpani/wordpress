@@ -1,0 +1,85 @@
+/*========= Biznez Lite =========*/
+
+== Copyright and License ==
+Biznez Lite WordPress Theme, Copyright (C) 2013 SketchThemes
+Biznez Lite WordPress theme is licensed under the GPL.
+
+/*========= Installation =========*/
+
+1. Upload the `biznez-lite` folder to the `/wp-content/themes/` directory
+Activation and Use
+1. Activate the Theme through the 'Themes' menu in WordPress
+2. See Appearance -> Biznez-lite Options to change theme options
+3. See Settings -> Reading -> Choose a Page for the Front page and Page for Posts page from drop-down.
+
+   "When you choose a Page for the Front page from drop-down, the contents of Selected page aren't displayed anywhere on the static front page."
+
+   "default your latest posts are show on front page if you are not select any page for front page."
+
+/*========= Theme Features and Documentation =========*/
+
+== WP Version ==
+
+It's requires at least version 3.4 to work properly.Please make sure your WP version is at least 3.4.
+
+
+== Theme Setup ==
+
+*General Settings:*
+
+1)Upload a logo and a favicon.
+2)Choose Theme Color.
+3)Change Header Background Color.
+4)Breadcrumb Settings.
+5)Show custom pagination on blog page(yes/no).
+6)Check to Enable persistent header navigation menu.
+
+
+*Slider Configuration:*
+
+1) Select Your Slider Type Fullwidth or Normal Slider.
+2) Select Animation (Fade/Horizontal Slide/Vertical Slide/)
+3) Animation Speed.
+4) Add Slider Title,Content,Link and Upload Image.
+
+
+*Contact Page Settings :*
+
+1)  Select Your Contact Page.
+2)  Enter Your Address Title.
+3)  Enter Your Address.
+4)  Enter Your Phone Number here to Show in Mobile View in Header.
+
+Plase install Contact Form 7 plugin and put shortcode in page content to show contact form on contact page.
+
+*Footer :*
+
+1) Enter Your Copyright Text(You can use HTML for links.)
+
+
+*About page:*
+1) Enter Your Team Member Heading Text.
+2) Enter Team Member Name,Job Title, Content, Website Link, facebook url, twitter url, Dribbble url.
+3) create a about page and set About page template for show functionality.
+
+*Front Page Options :*
+
+1) Go To Settings -> Reading Settings and Set Your Front and Post page.
+2) Go To Biznez-lite Options -> Front Page Options and Set Your Front Page Options.
+
+
+/*========= Widgets =========*/
+
+1. Follow Us Widget
+
+/*========= Page Templates =========*/
+
+1)About Page
+2)Contact Us Page
+3)Full Width
+4)Left-Sidebar
+5)Sitemap
+
+/*========= Translation =========*/
+
+The Biznez Lite is ready for translation. Translation files are in /languages.

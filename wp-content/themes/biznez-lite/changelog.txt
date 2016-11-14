@@ -1,0 +1,114 @@
+= 1.0.25 =
+* WP 4.6.1 compatible.
+
+= 1.0.24 =
+* WP 4.6 compatible.
+* Added social links.
+* Removed unused css.
+* Fix translation issues.
+
+= 1.0.23 =
+* Fixed featured image issue.
+* Fixed client title issue.
+
+= 1.0.22 =
+* Migrated to customizer framework.
+
+= 1.0.21 =
+* Added logo width and height option.
+* Fixed some styling issue of notification bar.
+
+= 1.0.20 =
+* WP 3.9.1 Compatible.
+
+= 1.0.19 =
+* WP 3.8.2 Compatible.
+
+= 1.0.18 =
+* update few backend styling and Content.
+
+= 1.0.17 =
+* WP 3.8.1 Compatible.
+* Update screenshot.png file.
+* update few backend styling.
+
+= 1.0.16 =
+* WP 3.8 Compatible.
+* update backend style. 
+
+= 1.0.15 =
+* Removed redirection to theme options page on activating theme.
+* WP 3.7.1 Compatible.
+* Fixed slider speed issue. 
+* Fixed Read More Link issue on category and Archive page.
+
+= 1.0.14 =
+* Fixed logo image issue.
+* Fixed front-page issue.
+* Fixed Images in widgets are overflowing issue.
+
+= 1.0.13 =
+* Fixed Notification bar and Button to top clearance at bottom position.
+* Fixed Notification bar default state option.
+* WP 3.6.1 Compatible.
+
+= 1.0.12 =
+* Fixed main navigation hover issue on chrome.
+* Added Contact form 7 support.
+* Added Contact page template and admin section for it.
+* Notification bar default color change.
+
+= 1.0.11 =
+* Replace home_url() to esc_url(home_url()).
+* Change prefix of all custom functions with unique prefixes.
+* Overrides the WordPress front-page.php file.
+* remove contact page template.
+
+= 1.0.10 =
+* Removed optional(recommended) Theme support 'custom-header' and 'custom-background'.
+
+= 1.0.9 =
+* Updated theme description.
+* Fixed notification bar css.
+* Fixed breadcrumb issue.
+* Fixed logo or text selection problem with persistent header.
+
+= 1.0.8 =
+* Change Default copyright link.
+* Change Footer credit link title.
+* Remove RSS link from document head.
+* Remove function_exists() conditional wrapper from has_nav_menu().
+
+= 1.0.7 =
+* Fix Clearing floats issue.
+* Change Team Member default images. 
+
+= 1.0.6 =
+* Fix Styling for Blockquote in comment section.
+* Change Notification bar follow icon links.
+* Remove all the custom Post types and meta boxes.
+
+= 1.0.5 =
+* added Installation_Instructions.txt
+* replaced few images having proper license
+
+
+= 1.0.4 =
+* Google font added via enqueue script
+* fixed wp_head()
+* fixed long menu issue
+* fixed meta overflow
+* added social icon default links
+* fixed long post titles overflow issue
+
+= 1.0.3 =
+* fixed wp_footer()
+* upadted licencing info of different elements used(jQuery, images etc.)
+* added terms of services
+
+= 1.0.2 =
+* Fixed Author url
+* Fixed theme url
+
+= 1.0.1 =
+Initial release

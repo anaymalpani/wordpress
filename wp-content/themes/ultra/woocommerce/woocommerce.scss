@@ -1,0 +1,207 @@
+/*
+Theme Name: Ultra
+Description: Adds support for WooCommerce.
+*/
+
+// Vendor Dependencies
+@import "bourbon";
+
+// Variables and Mixins
+@import "../sass/variables-site/variables-site";
+@import "../sass/mixins/mixins-master";
+
+.woocommerce .entry-header {
+	background: $color__background-lighter;
+	box-sizing: content-box;
+	margin-bottom: 2.67857em;	
+	padding: 1.33929em 0;
+}
+
+.woocommerce .entry-header h1.entry-title {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+	width: 70%;
+}
+
+@media (max-width: $medium) {
+	.resp {
+		&.woocommerce .entry-header h1.entry-title {
+			text-align: center;
+			width: 100%;
+		}
+	}
+}
+
+.woocommerce .container .woocommerce-breadcrumb {
+	box-sizing: border-box;
+	color: $color__text-main-minus-3;
+	display: inline-block;
+	margin: 0;
+	text-align: right;
+	vertical-align: middle;
+	width: 29%;
+	
+	@media (max-width: $medium) {
+		@at-root .resp#{&} {
+			text-align: center;
+			width: 100%;
+		}
+	}	
+	
+	a {
+		color: $color__text-main-minus-3;
+		
+		&:hover {
+			color: $color__link;
+		}
+	}	
+}
+
+.woocommerce.single-product .entry-header {
+	margin-bottom: 2.67857em;		
+}
+
+.woocommerce .woocommerce-ordering, 
+.woocommerce .woocommerce-result-count {
+	color: $color__text-main-minus-1;
+	@include font-size(0.92857);
+	line-height: 1.92308em;
+	margin-bottom: 2.67857em;
+}
+
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt {
+	background-color: transparent;
+	background: rgba(8, 150, 254, 1);
+	color: $color__background-body;
+	font-weight: normal;
+	padding: 0.7142em 1.2143em;
+	text-transform: none;
+}
+
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover {
+	background: rgba(8, 150, 254, 0.8);
+	border-bottom: none;
+	color: $color__background-body;
+}
+
+.woocommerce ul.products li.product .price {
+	color: $color__text-main-minus-1;
+	@include font-size(0.92857);
+	line-height: 1.92308em;
+}
+
+.woocommerce span.onsale {
+    background-color: $color__link;
+}
+
+.woocommerce .star-rating:before,
+.woocommerce ul.products li.product a:not(.button) {
+	color: $color__text-main-minus-1;
+}
+
+.woocommerce-review-link {
+	color: $color__text-main-minus-1;
+	@include font-size(0.92857);
+	line-height: 1.92308em;
+	
+	&:hover {
+		color: $color__text-main-minus-1;
+	}
+}
+
+.woocommerce p.stars a {
+	border-bottom: none; 
+}
+
+.single-product input[type="number"] {
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+}
+
+.product_meta {
+	color: $color__text-main-minus-1;
+	@include font-size(0.92857);
+	font-weight: bold;
+	line-height: 1.92308em;
+	
+	a,
+	a:hover {
+		color: $color__text-main-minus-1;
+		font-weight: normal;
+	}
+}
+
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price {
+	color: $color__text-main-minus-1;
+}
+
+.woocommerce ul.product_list_widget li {
+	box-sizing: border-box;
+    float: left;
+    margin-bottom: 2.67857em;
+  	text-align: center;
+    width: 31.33%;
+        
+	@media (max-width: $small) {
+    	float: none;
+   	 	width: 100%;
+    }
+}
+ 
+.woocommerce ul.product_list_widget li:nth-of-type(2n) {
+	margin-right: 25px;
+  	margin-left: 25px;
+  
+	@media (max-width: $small) {
+  		margin-right: 0;
+  		margin-left: 0;
+	}    
+}
+ 
+.woocommerce ul.product_list_widget li a {
+	border-bottom: none;
+	color: $color__text-main;
+}
+ 
+.woocommerce ul.product_list_widget li a span {
+	display: block;
+  	text-align: center;
+}
+ 
+.woocommerce ul.product_list_widget li a:hover {
+	color: $color__link;
+}
+ 
+.woocommerce ul.product_list_widget li img {
+	float: none;
+  	margin-left: 0;
+    width: auto;
+    
+    @media (max-width: $small) {
+		max-width: 300px;
+    }    
+}
+
+.woocommerce nav.woocommerce-pagination ul li:last-of-type {
+	border-right: none; 
+}
+
+.woocommerce-checkout #payment .payment_method_paypal .about_paypal {
+	border-bottom: none; 
+}

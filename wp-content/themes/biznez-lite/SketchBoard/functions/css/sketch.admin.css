@@ -1,0 +1,11 @@
+#wpwrap a[href="themes.php?page=custom-header"], #wpwrap a[href="themes.php?page=custom-background"]{display:none;}
+
+#skt-page-layout label{ border: 3px solid #F9F9F9; width:90px;height:60px;display:block; float:left; margin-right:6px; } 
+#skt-page-layout input[type="radio"]{opacity:0;}
+#skt-page-layout label.checked{border:3px solid #CCCCCC;}
+#skt-page-layout label:hover{opacity:0.8;}
+
+#skt_seo_metas{width:100%;background: none repeat scroll 0 0 #CFCFCF;}
+#skt_seo_metas input[type="text"]{ font-size: 14px; height: 40px; padding: 10px; width: 90%; } 
+#skt_seo_metas textarea{ font-size: 14px; height: 100px; overflow-y: auto; width: 90%; padding: 10px; } 
+#skt_seo_metas th{width:30%;}

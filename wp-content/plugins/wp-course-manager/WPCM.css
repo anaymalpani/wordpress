@@ -1,0 +1,161 @@
+/*Stylesheet for WordPress Course Manager plugin*/
+
+/*DIV that contains the image of a lecturer*/
+#WPCM_lecturer_image {
+	width: 150px;
+	float: right;
+	margin: 0 0 1em 1em;
+
+}
+
+#WPCM_lecturer_image img {
+	width: 100%;
+	border: none;
+}
+
+.WPCM_courses .WPCM_course_holder {
+    float: left;
+    margin: 0 0.5em 1em 0;
+    text-align: center;
+}
+
+.WPCM_courses .WPCM_course_holder img {
+	height: 80px;
+}
+
+.WPCM_course_dates {
+    float: right;
+    width: 150px;
+    margin: 0 0 1em 1em;
+    
+}
+
+.WPCM_course_lecturers h3 {
+    clear: none;
+}
+
+.WPCM_course_dates h3 {
+    margin-top: 0;
+}
+
+.WPCM_course_dates ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+th.header { 
+    background-image: url(images/unsorted.gif);     
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    margin-left: -1px; 
+} 
+
+th.headerSortUp { 
+    background-image: url(images/asc.gif); 
+} 
+
+th.headerSortDown { 
+    background-image: url(images/desc.gif); 
+}
+
+.WPCM_schedule {
+    position: relative;
+}
+
+#WPCM_schedule_table tr {
+    cursor: pointer;
+}
+
+#WPCM_schedule_details {
+    
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 90%;
+    margin-left: -45%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 2em;
+}
+
+#WPCM_schedule_details #WPCM_schedule_details_close_button {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -5px;
+    right: -5px;
+    padding: 0;
+    background-image: url(images/close_button_20.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#WPCM_schedule_details h3, #WPCM_schedule_details h4 {
+    margin: 0;
+}
+
+    
+#WPCM_schedule_details_date, #WPCM_schedule_details_place {
+    width: 50%;
+    float: left;
+}
+
+.wpcm_settings_wrap table td {
+    padding-right: 2em;
+}
+
+.wpcm_information, .wpcm_error {
+    padding: 1em;
+    margin: 1em 0;
+    width: 300px;
+    border: 3px solid;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: black;
+}
+
+.wpcm_error {
+    border-color: #aa0000;
+    background-color: #faf0f0;
+}
+
+.wpcm_information {
+    border-color: #00aa00;
+    background-color: #f0faf0;
+}
+
+@media (max-width: 600px) {
+    .WPCM_course_dates {
+        float: none;
+        width: 100%;
+        margin: inherit;
+    }
+    
+    .WPCM_schedule {
+        position: static;
+    }
+    
+    #WPCM_schedule_details {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 98%;
+    margin-left: -49%;
+    padding: 1em;
+}
+    
+    #WPCM_schedule_details_date, #WPCM_schedule_details_place {
+    width: 100%;
+    float: none;
+}
+}

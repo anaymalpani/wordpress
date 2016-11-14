@@ -1,0 +1,1325 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-27 15:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:39
+msgid "Error %s"
+msgstr ""
+
+#: archive.php:49 archive.php:62
+msgid "Yearly archives - %s"
+msgstr ""
+
+#: archive.php:50
+msgid "Monthly archives - %s"
+msgstr ""
+
+#: archive.php:53
+msgid "Daily Archives"
+msgstr ""
+
+#: archive.php:65
+msgid "Monthly Archives"
+msgstr ""
+
+#: archive.php:74
+msgid "Yearly Archives"
+msgstr ""
+
+#: archive.php:80
+msgid "Archives"
+msgstr ""
+
+#: author.php:32
+msgid "Author"
+msgstr ""
+
+#: category.php:43
+msgid "Category Archives"
+msgstr ""
+
+#: comments.php:31
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:43
+msgctxt "Title before comment(s) list"
+msgid "Comment ( %s )"
+msgid_plural "Comments ( %s )"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:60 templates/pagination.php:38
+msgid "%s Prev"
+msgstr ""
+
+#: comments.php:61 templates/pagination.php:39
+msgid "Next %s"
+msgstr ""
+
+#: comments.php:83 comments.php:100 comments.php:100
+msgid "Nickname ( required )"
+msgstr ""
+
+#: comments.php:88 comments.php:104 comments.php:104
+msgid "E-mail ( required )"
+msgstr ""
+
+#: comments.php:93 comments.php:108 comments.php:108
+msgid "Website"
+msgstr ""
+
+#: comments.php:114
+msgid "THE COMMENT BODY"
+msgstr ""
+
+#: comments.php:121
+msgid "You may use these HTML tags and attributes"
+msgstr ""
+
+#: comments.php:130
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:132 comments.php:133 comments.php:136
+msgid "Comment"
+msgstr ""
+
+#: comments.php:132
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:133
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:133
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:133
+msgid "Log out?"
+msgstr ""
+
+#: footer.php:240
+msgid "Copyright &copy; %s %s. Powered by %s."
+msgstr ""
+
+#: footer.php:259
+msgid "Designed by %s."
+msgstr ""
+
+#: front-page.php:132 page.php:122 single.php:139
+msgid "Pages"
+msgstr ""
+
+#: front-page.php:147
+msgid "Page not found"
+msgstr ""
+
+#: front-page.php:148 functions.php:124
+msgid ""
+"We apologize but this page, post or resource does not exist or can not be "
+"found."
+msgstr ""
+
+#: functions.php:83 cfg/customize.php:822
+msgid "Default"
+msgstr ""
+
+#: functions.php:108
+msgid "Resource not found"
+msgstr ""
+
+#: functions.php:127
+msgid ""
+"We apologize, but we couldn't find anything matching your search request. "
+"Please try to search for a different term or topic."
+msgstr ""
+
+#: index.php:45 cfg/customize.php:711
+msgid "Blog"
+msgstr ""
+
+#: search.php:40
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: searchform.php:18 searchform.php:18 searchform.php:18
+msgid "type here..."
+msgstr ""
+
+#. Name of the theme
+#: sidebar-footer-first.php:29
+msgid "Materialize"
+msgstr ""
+
+#: sidebar-footer-first.php:31
+msgid ""
+"It is a clean white WordPress theme %s with creative material design and %s "
+"responsive layout."
+msgstr ""
+
+#: sidebar-footer-fourth.php:29 sidebar-special-page.php:40
+msgid "Working Hours"
+msgstr ""
+
+#: sidebar-footer-fourth.php:31 sidebar-special-page.php:43
+msgid "Monday to Friday"
+msgstr ""
+
+#: sidebar-footer-second.php:29 sidebar-special-page.php:49
+msgid "Address"
+msgstr ""
+
+#: sidebar-footer-second.php:30
+msgid "1 Infinite Loop %s Cupertino, CA 95014 %s United States"
+msgstr ""
+
+#: sidebar-footer-third.php:29
+msgid "Contact"
+msgstr ""
+
+#: sidebar-footer-third.php:31 sidebar-special-page.php:33
+msgid "facebook: %s"
+msgstr ""
+
+#: sidebar-footer-third.php:32 sidebar-special-page.php:34
+msgid "direct: %s"
+msgstr ""
+
+#: sidebar-footer-third.php:33
+msgid "e-mail: %s"
+msgstr ""
+
+#: sidebar-page.php:36
+msgid "Default Content"
+msgstr ""
+
+#: sidebar-page.php:38
+msgid ""
+"You can hide all default content from sidebars if you go to Admin Dashboard "
+"&rsaquo; Appearance &rsaquo; Customize &rsaquo; Additional and disable "
+"option \"Display default content\"."
+msgstr ""
+
+#: sidebar-post.php:48 cfg/widgets/mythemes.post_meta.class.php:48
+msgid "Edit"
+msgstr ""
+
+#: sidebar-post.php:51 cfg/widgets/mythemes.post_meta.class.php:51 
+#: templates/meta/top.php:32
+msgid "Writed by %s"
+msgstr ""
+
+#: sidebar-post.php:59 cfg/widgets/mythemes.post_meta.class.php:58
+msgctxt "Number of comment(s) from widget \"myThemes: Meta Details\""
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: sidebar-post.php:73 cfg/widgets/mythemes.post_meta.class.php:71
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: sidebar-post.php:83
+msgid "Article Categories"
+msgstr ""
+
+#: sidebar-post.php:97
+msgid "Article Tags"
+msgstr ""
+
+#: sidebar-special-page.php:31
+msgid "Contact Us"
+msgstr ""
+
+#: sidebar.php:41
+msgid "Tags"
+msgstr ""
+
+#: sidebar.php:66
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:77
+msgid "View all posts filed under - %s"
+msgstr ""
+
+#: tag.php:39
+msgid "Tag Archives"
+msgstr ""
+
+#: cfg/cfgs.php:7
+msgid ""
+"myThem.es Marketplace provides WordPress themes with the best quality and "
+"the smallest prices."
+msgstr ""
+
+#: cfg/cfgs.php:14
+msgid "Materialize - Best WordPress Theme based on Material Design."
+msgstr ""
+
+#: cfg/cfgs.php:28
+msgid "Welcome Message !"
+msgstr ""
+
+#: cfg/cfgs.php:31
+msgid ""
+"Thank you for choosing myThem.es and use one of our WordPress Themes your "
+"choice is greatly appreciated!"
+msgstr ""
+
+#: cfg/cfgs.php:33
+msgid "If you have any questions ask!"
+msgstr ""
+
+#: cfg/cfgs.php:35
+msgid "And please help us to increase the theme quality ( report bugs )."
+msgstr ""
+
+#: cfg/cfgs.php:37
+msgid "Also please help us to increase the theme rank!"
+msgstr ""
+
+#: cfg/cfgs.php:40
+msgid "Default content from Sidebars: Footer, Blog, Single, Special Page"
+msgstr ""
+
+#: cfg/cfgs.php:43
+msgid "GENERAL ABOUT DEFAULT CONTENT"
+msgstr ""
+
+#: cfg/cfgs.php:45
+msgid "The default content exists only in sidebars !"
+msgstr ""
+
+#: cfg/cfgs.php:46
+msgid "The default content is hardcoded in theme files. But you can:"
+msgstr ""
+
+#: cfg/cfgs.php:47
+msgid "1. Disable all default content and fill with your content."
+msgstr ""
+
+#: cfg/cfgs.php:48
+msgid "2. Replace only one section or more sections with your content."
+msgstr ""
+
+#: cfg/cfgs.php:51
+msgid ""
+"You can hide all default content if you go to <strong>Admin Dashboard "
+"&rsaquo; Appearance &rsaquo; Customize &rsaquo; Additional</strong> and "
+"disable option \"Display default content\"."
+msgstr ""
+
+#: cfg/cfgs.php:54
+msgid ""
+"<strong>IMPORTANT</strong>: if the option \"Display default content\" is "
+"enabled and the Header Sidebars is empty then will be displayed the default "
+"content ( hardcoded ) from this sidebar."
+msgstr ""
+
+#: cfg/cfgs.php:55
+msgid ""
+"So, just is need to get and put a text widget and fill the Text widget with "
+"you Title and with your Content."
+msgstr ""
+
+#: cfg/cfgs.php:56
+msgid ""
+"<strong>IMPORTANT</strong>: The widgets are placed in the left and the "
+"sidebars are placed in the right ( <strong>Appearance &rsaquo; "
+"Widgets</strong> )."
+msgstr ""
+
+#: cfg/cfgs.php:60
+msgid "FOOTER"
+msgstr ""
+
+#: cfg/cfgs.php:62
+msgid ""
+"In the footer before the copyright section there are 3 components that are "
+"entitle:"
+msgstr ""
+
+#: cfg/cfgs.php:66
+msgid "1. Materialize"
+msgstr ""
+
+#: cfg/cfgs.php:67
+msgid "2. ADDRESS"
+msgstr ""
+
+#: cfg/cfgs.php:68
+msgid "3. CONTACT"
+msgstr ""
+
+#: cfg/cfgs.php:69
+msgid "4. WORKING HOURS"
+msgstr ""
+
+#: cfg/cfgs.php:73
+msgid ""
+"Here we have three sidebars with default content. These are \"Header Front "
+"Page Sidebars\". If you go to Admin Dashboard &rsaquo; Appearance &rsaquo; "
+"Widgets you can see sidebars:"
+msgstr ""
+
+#: cfg/cfgs.php:77
+msgid "1. Footer - First Sidebar ( is used the sample Text widget )"
+msgstr ""
+
+#: cfg/cfgs.php:78
+msgid "2. Footer - Second Sidebar ( is used the sample Text widget )"
+msgstr ""
+
+#: cfg/cfgs.php:79
+msgid "3. Footer - Third Sidebar ( is used the sample Text widget )"
+msgstr ""
+
+#: cfg/cfgs.php:80
+msgid "4. Footer - Fourth Sidebar ( is used the sample Text widget )"
+msgstr ""
+
+#: cfg/cfgs.php:84
+msgid "BLOG ( MAIN SIDEBAR )"
+msgstr ""
+
+#: cfg/cfgs.php:86
+msgid ""
+"By default is used content from next widgets: \"Search\", \"Tags Cloud\" and "
+"\"Categories\"."
+msgstr ""
+
+#: cfg/cfgs.php:90
+msgid "SINGLE POST ( SINGLE SIDEBAR )"
+msgstr ""
+
+#: cfg/cfgs.php:92
+msgid ""
+"By default is used content from next widgets: \"Post Meta [myThem.es]\", "
+"\"Post Categories [myThem.es]\" and \"Post Tags [myThem.es]\"."
+msgstr ""
+
+#: cfg/cfgs.php:96
+msgid "REPLACE CONTENT VS DISABLE DEFAULT CONTENT"
+msgstr ""
+
+#: cfg/cfgs.php:98
+msgid ""
+"If you disable the default content then it will disable all default content "
+"from your web site ( sidebars with default content listed above ):"
+msgstr ""
+
+#: cfg/cfgs.php:102
+msgid "- Footer Sidebars"
+msgstr ""
+
+#: cfg/cfgs.php:103
+msgid "- Main Blog Sidebar"
+msgstr ""
+
+#: cfg/cfgs.php:104
+msgid "- Single Sidebar"
+msgstr ""
+
+#: cfg/cfgs.php:105
+msgid "- ..."
+msgstr ""
+
+#: cfg/cfgs.php:109
+msgid ""
+"Also you can replace the default content with your content. This will allow "
+"you to make one or more changes. You will not need to replace all default "
+"content."
+msgstr ""
+
+#: cfg/cfgs.php:111
+msgid ""
+"To replace the default content you need to add a widget with your content in "
+"the sidebar with default content ( listed above). The default content will "
+"automatically change with your content (only for this sidebar)."
+msgstr ""
+
+#: cfg/cfgs.php:115
+msgid "Custom CSS and Customizations"
+msgstr ""
+
+#: cfg/cfgs.php:118
+msgid ""
+"This theme comes with special option. This option allow add custom css to "
+"customize your web site to your needs."
+msgstr ""
+
+#: cfg/cfgs.php:120
+msgid "To use it go to Admin Dashboard"
+msgstr ""
+
+#: cfg/cfgs.php:122
+msgid "Appearance &rsaquo; Customize &rsaquo; Others - option \"Custom css\"."
+msgstr ""
+
+#: cfg/cfgs.php:124
+msgid ""
+"You can use it for multiple case, just is need to add you css in this field."
+msgstr ""
+
+#: cfg/cfgs.php:127
+msgid "Customize the Theme"
+msgstr ""
+
+#: cfg/cfgs.php:130
+msgid ""
+"This theme comes with a set of options what allow you to customize content, "
+"header, layouts, social items and others."
+msgstr ""
+
+#: cfg/cfgs.php:132
+msgid "You can see theme options if you go to Admin Dashboard"
+msgstr ""
+
+#: cfg/cfgs.php:134
+msgid "Appearance &rsaquo; Customize"
+msgstr ""
+
+#: cfg/cfgs.php:136
+msgid "Here you can see:"
+msgstr ""
+
+#: cfg/cfgs.php:140
+msgid "01. Site Identity"
+msgstr ""
+
+#: cfg/cfgs.php:141
+msgid "02. Colors"
+msgstr ""
+
+#: cfg/cfgs.php:142
+msgid "03. Background Image"
+msgstr ""
+
+#: cfg/cfgs.php:143
+msgid "04. Header Image"
+msgstr ""
+
+#: cfg/cfgs.php:144
+msgid "05. Header Elements"
+msgstr ""
+
+#: cfg/cfgs.php:145
+msgid "06. Breadcrumbs"
+msgstr ""
+
+#: cfg/cfgs.php:146
+msgid "07. Additional"
+msgstr ""
+
+#: cfg/cfgs.php:147
+msgid "08. Layout"
+msgstr ""
+
+#: cfg/cfgs.php:148
+msgid "09. Social"
+msgstr ""
+
+#: cfg/cfgs.php:149
+msgid "10. Others"
+msgstr ""
+
+#: cfg/cfgs.php:150
+msgid "11. Menu"
+msgstr ""
+
+#: cfg/cfgs.php:151
+msgid "12. Widgets"
+msgstr ""
+
+#: cfg/cfgs.php:152
+msgid "13. Static Front Page"
+msgstr ""
+
+#: cfg/cfgs.php:156
+msgid "All you have to do is play with them and view live changes."
+msgstr ""
+
+#: cfg/cfgs.php:158
+msgid "Try and you will discover how easy it is to customize your own style."
+msgstr ""
+
+#: cfg/customize.php:17
+msgid "Site Identity"
+msgstr ""
+
+#: cfg/customize.php:32
+msgid "Preview Logo"
+msgstr ""
+
+#: cfg/customize.php:46
+msgid "Logo Margin Top"
+msgstr ""
+
+#: cfg/customize.php:66
+msgid "Logo Marign Bottom"
+msgstr ""
+
+#: cfg/customize.php:85
+msgid "Colors"
+msgstr ""
+
+#: cfg/customize.php:99
+msgid "Background Image"
+msgstr ""
+
+#: cfg/customize.php:109
+msgid "Header Image"
+msgstr ""
+
+#: cfg/customize.php:119
+msgid "Header Elements"
+msgstr ""
+
+#: cfg/customize.php:130
+msgid "General"
+msgstr ""
+
+#: cfg/customize.php:144
+msgid "Display Header on Front Page"
+msgstr ""
+
+#: cfg/customize.php:158
+msgid "Display Header on Blog Page"
+msgstr ""
+
+#: cfg/customize.php:172
+msgid "Display Header on Templates"
+msgstr ""
+
+#: cfg/customize.php:173
+msgid ""
+"enabale / disable header on: Archives, Categories, Tags, Author, 404 and "
+"Search Results."
+msgstr ""
+
+#: cfg/customize.php:187
+msgid "Display Header on Single Post"
+msgstr ""
+
+#: cfg/customize.php:201
+msgid "Display Header on Single Page"
+msgstr ""
+
+#: cfg/customize.php:215
+msgid "Header height"
+msgstr ""
+
+#: cfg/customize.php:237 cfg/customize.php:434 cfg/customize.php:556
+msgid "Background Color"
+msgstr ""
+
+#: cfg/customize.php:254
+msgid "Mask Color"
+msgstr ""
+
+#: cfg/customize.php:268
+msgid "Mask Transparency"
+msgstr ""
+
+#: cfg/customize.php:269
+msgid ""
+"by default the mask is a dark transparent foil over the header background "
+"image."
+msgstr ""
+
+#: cfg/customize.php:285
+msgid "Content"
+msgstr ""
+
+#: cfg/customize.php:299
+msgid "Show Headline"
+msgstr ""
+
+#: cfg/customize.php:307
+msgid "The best WordPress Theme based on Material Design"
+msgstr ""
+
+#: cfg/customize.php:313
+msgid "Headline Text"
+msgstr ""
+
+#: cfg/customize.php:330
+msgid "Headline Color"
+msgstr ""
+
+#: cfg/customize.php:344
+msgid "Show Description"
+msgstr ""
+
+#: cfg/customize.php:352
+msgid "free WordPress theme developed by myThem.es"
+msgstr ""
+
+#: cfg/customize.php:358
+msgid "Header Description"
+msgstr ""
+
+#: cfg/customize.php:375
+msgid "Description Color"
+msgstr ""
+
+#: cfg/customize.php:386 cfg/customize.php:475 templates/header.php:31
+msgid "First Button"
+msgstr ""
+
+#: cfg/customize.php:400
+msgid "Show Button"
+msgstr ""
+
+#: cfg/customize.php:417 cfg/customize.php:539
+msgid "Text Color"
+msgstr ""
+
+#: cfg/customize.php:451 cfg/customize.php:573
+msgid "Background Color ( over )"
+msgstr ""
+
+#: cfg/customize.php:452 cfg/customize.php:574
+msgid "When the mouse is over the button."
+msgstr ""
+
+#: cfg/customize.php:466 cfg/customize.php:588
+msgid "URL"
+msgstr ""
+
+#: cfg/customize.php:467
+msgid "Link for first button"
+msgstr ""
+
+#: cfg/customize.php:481 cfg/customize.php:603
+msgid "Text"
+msgstr ""
+
+#: cfg/customize.php:482
+msgid "Text for first button"
+msgstr ""
+
+#: cfg/customize.php:490 templates/header.php:32
+msgid "first button link description..."
+msgstr ""
+
+#: cfg/customize.php:496 cfg/customize.php:618
+msgid "Description"
+msgstr ""
+
+#: cfg/customize.php:497
+msgid "link description for first button"
+msgstr ""
+
+#: cfg/customize.php:508 cfg/customize.php:597 templates/header.php:36
+msgid "Second Button"
+msgstr ""
+
+#: cfg/customize.php:522
+msgid "Display second button"
+msgstr ""
+
+#: cfg/customize.php:589
+msgid "Link for second button"
+msgstr ""
+
+#: cfg/customize.php:604
+msgid "Text for second button"
+msgstr ""
+
+#: cfg/customize.php:612 templates/header.php:37
+msgid "second button link description..."
+msgstr ""
+
+#: cfg/customize.php:619
+msgid "link description for second button"
+msgstr ""
+
+#: cfg/customize.php:631
+msgid "Breadcrumbs"
+msgstr ""
+
+#: cfg/customize.php:644
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: cfg/customize.php:652 lib/mythemes.breadcrumbs.class.php:10
+msgid "Home"
+msgstr ""
+
+#: cfg/customize.php:658
+msgid "\"Home\" link text"
+msgstr ""
+
+#: cfg/customize.php:659
+msgid "breadcrumbs \"Home\" link text."
+msgstr ""
+
+#: cfg/customize.php:667 lib/mythemes.breadcrumbs.class.php:9
+msgid "go to home"
+msgstr ""
+
+#: cfg/customize.php:673
+msgid "\"Home\" link description"
+msgstr ""
+
+#: cfg/customize.php:674
+msgid "breadcrumbs \"Home\" link description."
+msgstr ""
+
+#: cfg/customize.php:688
+msgid "Space"
+msgstr ""
+
+#: cfg/customize.php:689
+msgid "inner above and below space allow you to change breadcrumbs height."
+msgstr ""
+
+#: cfg/customize.php:704
+msgid "Additional"
+msgstr ""
+
+#: cfg/customize.php:717
+msgid "Title for Blog Page"
+msgstr ""
+
+#: cfg/customize.php:731
+msgid "Show default content"
+msgstr ""
+
+#: cfg/customize.php:732
+msgid "enable / disable default content from sidebars."
+msgstr ""
+
+#: cfg/customize.php:746
+msgid "Enable myThem.es Gallery Effects"
+msgstr ""
+
+#: cfg/customize.php:747
+msgid "you can disable this option to enable jetpack gallery"
+msgstr ""
+
+#: cfg/customize.php:761
+msgid "Display top meta"
+msgstr ""
+
+#: cfg/customize.php:762
+msgid "enable / disable top meta from single posts ( all posts )."
+msgstr ""
+
+#: cfg/customize.php:776
+msgid "Display bottom meta"
+msgstr ""
+
+#: cfg/customize.php:777
+msgid "enable / disable bottom meta from single posts ( all posts )."
+msgstr ""
+
+#: cfg/customize.php:791
+msgid "HTML Suggestions"
+msgstr ""
+
+#: cfg/customize.php:792
+msgid "enable / disable HTML Suggestions after comments form ( all posts )."
+msgstr ""
+
+#: cfg/customize.php:803 cfg/customize.php:836 cfg/customize.php:883 
+#: cfg/customize.php:931 cfg/customize.php:979 cfg/customize.php:1042
+msgid "Layout"
+msgstr ""
+
+#: cfg/customize.php:811 lib/mythemes.setup.class.php:10
+msgid "Main Sidebar"
+msgstr ""
+
+#: cfg/customize.php:812 lib/mythemes.setup.class.php:20
+msgid "Front Page Sidebar"
+msgstr ""
+
+#: cfg/customize.php:813 lib/mythemes.setup.class.php:40
+msgid "Page Sidebar"
+msgstr ""
+
+#: cfg/customize.php:814 lib/mythemes.setup.class.php:30
+msgid "Post Sidebar"
+msgstr ""
+
+#: cfg/customize.php:815 lib/mythemes.setup.class.php:50
+msgid "Special Page Sidebar"
+msgstr ""
+
+#: cfg/customize.php:823
+msgid ""
+"Default Layout is used for the next templates: Blog, Archives, Categories, "
+"Tags, Author and Search Results."
+msgstr ""
+
+#: cfg/customize.php:841 cfg/customize.php:888 cfg/customize.php:936 
+#: cfg/customize.php:984 cfg/customize.php:1047
+msgid "Left Sidebar"
+msgstr ""
+
+#: cfg/customize.php:842 cfg/customize.php:889 cfg/customize.php:937 
+#: cfg/customize.php:985 cfg/customize.php:1048
+msgid "Full Width"
+msgstr ""
+
+#: cfg/customize.php:843 cfg/customize.php:890 cfg/customize.php:938 
+#: cfg/customize.php:986 cfg/customize.php:1049
+msgid "Right Sidebar"
+msgstr ""
+
+#: cfg/customize.php:855 cfg/customize.php:902 cfg/customize.php:950 
+#: cfg/customize.php:998 cfg/customize.php:1061
+msgid "Sidebar"
+msgstr ""
+
+#: cfg/customize.php:869
+msgid "Front Page"
+msgstr ""
+
+#: cfg/customize.php:870
+msgid ""
+"In order to use this option set you need to activate a staic page on Front "
+"Page from - \"Static Front Page\" tab"
+msgstr ""
+
+#: cfg/customize.php:916
+msgid "Single Page"
+msgstr ""
+
+#: cfg/customize.php:964
+msgid "Single Post"
+msgstr ""
+
+#: cfg/customize.php:1012
+msgid "Special Page"
+msgstr ""
+
+#: cfg/customize.php:1027
+msgid "Special page"
+msgstr ""
+
+#: cfg/customize.php:1028
+msgid ""
+"for selected page you can overwrite default page layout settings with "
+"special layout settings"
+msgstr ""
+
+#: cfg/customize.php:1076
+msgid "Social"
+msgstr ""
+
+#: cfg/customize.php:1089
+msgid "Vimeo"
+msgstr ""
+
+#: cfg/customize.php:1103
+msgid "Twitter"
+msgstr ""
+
+#: cfg/customize.php:1118
+msgid "Skype"
+msgstr ""
+
+#: cfg/customize.php:1132
+msgid "Renren"
+msgstr ""
+
+#: cfg/customize.php:1146
+msgid "Github"
+msgstr ""
+
+#: cfg/customize.php:1160
+msgid "Rdio"
+msgstr ""
+
+#: cfg/customize.php:1174
+msgid "Linkedin"
+msgstr ""
+
+#: cfg/customize.php:1188
+msgid "Behance"
+msgstr ""
+
+#: cfg/customize.php:1202
+msgid "Dropbox"
+msgstr ""
+
+#: cfg/customize.php:1216
+msgid "Flickr"
+msgstr ""
+
+#: cfg/customize.php:1230
+msgid "Tumblr"
+msgstr ""
+
+#: cfg/customize.php:1244
+msgid "Instagram"
+msgstr ""
+
+#: cfg/customize.php:1258
+msgid "Vkontakte"
+msgstr ""
+
+#: cfg/customize.php:1272
+msgid "Facebook"
+msgstr ""
+
+#: cfg/customize.php:1286
+msgid "Evernote"
+msgstr ""
+
+#: cfg/customize.php:1300
+msgid "Flattr"
+msgstr ""
+
+#: cfg/customize.php:1314
+msgid "Picasa"
+msgstr ""
+
+#: cfg/customize.php:1328
+msgid "Dribbble"
+msgstr ""
+
+#: cfg/customize.php:1342
+msgid "Mixi"
+msgstr ""
+
+#: cfg/customize.php:1356
+msgid "Stumbleupon"
+msgstr ""
+
+#: cfg/customize.php:1370
+msgid "Lastfm"
+msgstr ""
+
+#: cfg/customize.php:1384
+msgid "GPlus"
+msgstr ""
+
+#: cfg/customize.php:1398
+msgid "Google circles"
+msgstr ""
+
+#: cfg/customize.php:1412
+msgid "Pinterest"
+msgstr ""
+
+#: cfg/customize.php:1426
+msgid "Smashing"
+msgstr ""
+
+#: cfg/customize.php:1440
+msgid "Soundcloud"
+msgstr ""
+
+#: cfg/customize.php:1454
+msgid "Rss"
+msgstr ""
+
+#: cfg/customize.php:1464
+msgid "Others"
+msgstr ""
+
+#: cfg/customize.php:1473 cfg/customize.php:1487
+msgid "Custom CSS"
+msgstr ""
+
+#: cfg/customize.php:1488
+msgid "This is a general Custom CSS field."
+msgstr ""
+
+#: cfg/customize.php:1503
+msgid "Custom CSS IE"
+msgstr ""
+
+#: cfg/customize.php:1504
+msgid "This Custom CSS field is used just for Internet Explorer"
+msgstr ""
+
+#: cfg/customize.php:1519
+msgid "Custom CSS IE 11"
+msgstr ""
+
+#: cfg/customize.php:1520
+msgid "This Custom CSS field is used just for Internet Explorer 11"
+msgstr ""
+
+#: cfg/customize.php:1535
+msgid "Custom CSS IE 10"
+msgstr ""
+
+#: cfg/customize.php:1536
+msgid "This Custom CSS field is used just for Internet Explorer 10"
+msgstr ""
+
+#: cfg/customize.php:1551
+msgid "Custom CSS IE 9"
+msgstr ""
+
+#: cfg/customize.php:1552
+msgid "This Custom CSS field is used just for Internet Explorer 9"
+msgstr ""
+
+#: cfg/customize.php:1567
+msgid "Custom CSS IE 8"
+msgstr ""
+
+#: cfg/customize.php:1568
+msgid "This Custom CSS field is used just for Internet Explorer 8"
+msgstr ""
+
+#: cfg/customize.php:1577
+msgid "Copyright"
+msgstr ""
+
+#: cfg/customize.php:1584
+msgid "Copyright &copy; %1s. Powered by %2s."
+msgstr ""
+
+#: cfg/customize.php:1590
+msgid "Website content Copyright"
+msgstr ""
+
+#: cfg/customize.php:1591
+msgid ""
+"From the theme options you can change only the website content copyright."
+msgstr ""
+
+#: lib/mythemes.breadcrumbs.class.php:38
+msgid "See articles from category - %s"
+msgstr ""
+
+#: lib/mythemes.breadcrumbs.class.php:65
+msgid "One Article"
+msgid_plural "%s Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythemes.comments.class.php:26
+msgid "Reply"
+msgstr ""
+
+#: lib/mythemes.comments.class.php:42
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/mythemes.gallery.class.php:134
+msgid "None"
+msgstr ""
+
+#: lib/mythemes.gallery.class.php:135
+msgid "Effect Bubba"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:11
+msgid ""
+"Main Sidebar - is used by default for next templates: Blog, Archives, Author,"
+" Categories, Tags and Search Results."
+msgstr ""
+
+#: lib/mythemes.setup.class.php:21
+msgid "Front Page Sidebar - is used by default for Front Page template."
+msgstr ""
+
+#: lib/mythemes.setup.class.php:31
+msgid "Post Sidebar - is used by default for single post template."
+msgstr ""
+
+#: lib/mythemes.setup.class.php:41
+msgid "Page Sidebar - is used by default for page template."
+msgstr ""
+
+#: lib/mythemes.setup.class.php:51
+msgid "Special Page Sidebar - by default is used for Special Page Layout."
+msgstr ""
+
+#: lib/mythemes.setup.class.php:61
+msgid "Header - First Front Page Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:62
+msgid "Content for left front page header Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:71
+msgid "Header - Second Front Page Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:72
+msgid "Content for middle front page header Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:81
+msgid "Header - Third Front Page Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:82
+msgid "Content for right front page header Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:92
+msgid "Footer - First Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:93
+msgid "Content for first footer Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:102
+msgid "Footer - Second Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:103
+msgid "Content for second footer Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:112
+msgid "Footer - Third Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:113
+msgid "Content for third footer Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:122
+msgid "Footer - Fourth Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:123
+msgid "Content for fourth footer Sidebar"
+msgstr ""
+
+#: lib/mythemes.setup.class.php:134
+msgid "Header menu"
+msgstr ""
+
+#: lib/mythemes.tools.class.php:82
+msgid " - Select from list - "
+msgstr ""
+
+#: templates/header.php:12
+msgid "Best WordPress Theme based on Material Design"
+msgstr ""
+
+#: templates/header.php:13
+msgid "Materialize is a freemium WordPress theme developed by myThem.es"
+msgstr ""
+
+#: templates/loop.php:43
+msgid "Not found results"
+msgstr ""
+
+#: templates/loop.php:44
+msgid ""
+"We apologize but this page, post or resource does not exist or can not be "
+"found. Perhaps it is necessary to change the call method to this page, post "
+"or resource."
+msgstr ""
+
+#: cfg/pages/materialize-faq.php:11
+msgid "Materialize FAQ"
+msgstr ""
+
+#: cfg/widgets/mythemes.post_categories.class.php:8
+msgid "Post Categories"
+msgstr ""
+
+#: cfg/widgets/mythemes.post_categories.class.php:10 
+#: cfg/widgets/mythemes.post_meta.class.php:10 
+#: cfg/widgets/mythemes.post_tags.class.php:10
+msgid "Use only for single post template"
+msgstr ""
+
+#: cfg/widgets/mythemes.post_categories.class.php:59 
+#: cfg/widgets/mythemes.post_meta.class.php:98 
+#: cfg/widgets/mythemes.post_tags.class.php:77
+msgid "Title"
+msgstr ""
+
+#: cfg/widgets/mythemes.post_meta.class.php:8
+msgid "Post Meta"
+msgstr ""
+
+#: cfg/widgets/mythemes.post_tags.class.php:8
+msgid "Post Tags"
+msgstr ""
+
+#: templates/meta/top.php:23
+msgid "on %s"
+msgstr ""
+
+#: templates/meta/top.php:33
+msgid "by %s"
+msgstr ""
+
+#: templates/meta/top.php:42
+msgctxt "Number of comment(s) from post meta"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/views/classic.php:63
+msgid "Read more about .."
+msgstr ""
+
+#: templates/views/classic.php:86
+msgid "Read More"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Materialize is an white, clean, elegant, modern, creative and beautiful "
+"freemium WordPress theme built with HTML5 and CSS3. The clean, white, "
+"elegant, modern and creative design can be used for any type of website: "
+"business, corporate, portfolio, products, creative, arts, design, "
+"construction, transport, manufacturing, ecology, cosmetics, beauty, hygiene, "
+"sports, culture, presentations, food business, restaurants, drink, bar, pub, "
+"club, radio, tv, television, music, movies, live style, garden, cuisine, "
+"chemical, pharmaceutical, medicine, travel, sample blog, agriculture, "
+"science, politics and more others. The theme is builded base on white, clean "
+"and responsive Material Design Concept. This theme is suitable for all type "
+"of devices: desktop, notebook, tablete, iPhone and others. Responsive design "
+"and Materialia Design Concept are based on Materialize framework. Theme is "
+"developed by myThem.es. We carefully handcrafted this theme with a strong "
+"focus on typography, usability and overall user-experience. It’s very quick "
+"to setup and easy to customize. It also comes with free support. Please read "
+"the FAQ: <strong>Admin Dashboard &gt; Appearances &gt; Materialize "
+"FAQ</strong>. Aslo please visit our demo presentation: <a href=\"http://test."
+"mythem.es/materialize-wordpress/\">http://test.mythem.es/materialize-"
+"wordpress/</a>."
+msgstr ""
+
+#. URI of the theme
+msgid "http://mythem.es/item/materialize-free-wordpress-theme/"
+msgstr ""
+
+#. Author of the theme
+msgid "myThem.es"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://mythem.es/"
+msgstr ""

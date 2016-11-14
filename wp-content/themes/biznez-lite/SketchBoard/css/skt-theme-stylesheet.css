@@ -1,0 +1,5 @@
+/*contact form style*/
+#cstatus{	display: none;}
+form#contactform .sending-mail{ background: url("../images/preloader.gif") no-repeat scroll 0 17px transparent;display: block;  float: left; height: 37px;margin-left: 15px;padding-left: 25px;padding-top: 15px;}
+form#contactform .mail-sent{ background-color: rgba(0, 0, 0, 0.7); border: 1px solid #000000;color: #FFFFFF; display: inline-block;  float: left; height: 45px;left: 0; margin: -50px auto 0;padding: 28px;position: absolute; right: 0;  text-align: center;   top: 50%;    width: 165px;}
+

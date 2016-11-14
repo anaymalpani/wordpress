@@ -1,0 +1,1372 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biznez Lite v1.0.23\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-02 05:08:51+0000\n"
+"Last-Translator: admin <gunjan@techinfini.com>\n"
+"Language-Team: SketchThemes <query@sketchthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:45
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: 404.php:87
+msgid "Page Not Found."
+msgstr ""
+
+#: 404.php:91
+msgid "Apologies, but the page you requested could not be found."
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:35
+msgid "Home"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:178
+msgid "Author : %"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:186
+#, php-format
+msgid "Tag : %s"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:194
+msgid "Search"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:200
+msgid "Error 404"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:35
+msgid "First Page"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:36
+msgid "Last Page"
+msgstr ""
+
+#: SketchBoard/functions/sketch-theme-support.php:26
+msgid "Untitled"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:13
+msgid "Follow Us - Biznez"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:23
+msgid "Get in Touch"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:29
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:216
+msgid "26px"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:210
+msgid "Title:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:213
+msgid "Icon size"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:215
+msgid "16px"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:217
+msgid "32px"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:218
+msgid "48px"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:223
+msgid "Link for Linkedin"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:226
+msgid "Link for Facebook"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:229
+msgid "Link for Twitter"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:232
+msgid "Link for Flickr"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:235
+msgid "Link for Google+"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:238
+msgid "Skype UserID"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:241
+msgid "Link for YouTube"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:244
+msgid "Link for Wordpress"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:247
+msgid "Link for Dribble"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:250
+msgid "Link for Pinterest"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:253
+msgid "Link for Vimeo"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:256
+msgid "Link for Deviantart"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:259
+msgid "Link for Tumblr"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:262
+msgid "Link for Stumbleupon"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:265
+msgid "Link for Picasa"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:268
+msgid "Link for Friendfeed"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:271
+msgid "Link for Slideshare"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:274
+msgid "Link for Behance"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:277
+msgid "Link for Github"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:280
+msgid "Link for Reddit"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:283
+msgid "Link for Foursquar"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:286
+msgid "Link for Digg"
+msgstr ""
+
+#: SketchBoard/functions/widgets/skt-follow-us-widget.php:289
+msgid "Link for Delicious"
+msgstr ""
+
+#: archive.php:1
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:1
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:1
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:1
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:1 author.php:1 category.php:1 home.php:59 index.php:26
+#: search.php:1 single.php:55 tag.php:77
+msgid "Posted by "
+msgstr ""
+
+#: archive.php:1 author.php:1 category.php:1 comments.php:13 home.php:63
+#: index.php:28 search.php:1 single.php:59 tag.php:81
+msgid "No Comments"
+msgstr ""
+
+#: archive.php:1 author.php:1 category.php:1 home.php:63 index.php:28
+#: search.php:1 single.php:59 tag.php:81
+msgid "1 Comment"
+msgstr ""
+
+#: archive.php:1 author.php:1 category.php:1 comments.php:13 home.php:63
+#: index.php:28 search.php:1 single.php:59 tag.php:81
+msgid "% Comments "
+msgstr ""
+
+#: archive.php:1 author.php:1 category.php:1 home.php:70 index.php:32
+#: search.php:1 single.php:75 tag.php:88
+msgid "Pages :"
+msgstr ""
+
+#: archive.php:1 author.php:1 category.php:1 home.php:70 index.php:32
+#: search.php:1 single.php:75 tag.php:88
+msgid "number"
+msgstr ""
+
+#: archive.php:1 author.php:1 category.php:1 home.php:71 index.php:33
+#: search.php:1 tag.php:89
+msgid "Read More &rarr;"
+msgstr ""
+
+#: archive.php:1 author.php:1 category.php:1 home.php:97 index-page.php:1
+#: index.php:46 page.php:1 single.php:99 tag.php:113
+#: template-about-page.php:51 template-full-width.php:87
+#: template-left-sidebar.php:61
+msgid "Not Found"
+msgstr ""
+
+#: attachment.php:13
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: attachment.php:15
+#, php-format
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:25
+#, php-format
+msgid "<span class=\"%1$s\">by</span> %2$s"
+msgstr ""
+
+#: attachment.php:35
+#, php-format
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: attachment.php:45
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:48
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:54 attachment.php:114 contact-page.php:32 search.php:1
+#: single.php:61 template-about-page.php:156 template-full-width.php:59
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:108
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: attachment.php:109
+msgid "Pages:"
+msgstr ""
+
+#: author.php:1
+msgid "Author"
+msgstr ""
+
+#: category.php:1
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments-popup.php:10
+msgid "by"
+msgstr ""
+
+#: comments-popup.php:21
+msgid "No comments yet."
+msgstr ""
+
+#: comments-popup.php:24
+msgid "Leave a comment"
+msgstr ""
+
+#: comments-popup.php:25
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: "
+msgstr ""
+
+#: comments-popup.php:28
+msgid "Logged in as "
+msgstr ""
+
+#: comments-popup.php:31
+msgid "Name"
+msgstr ""
+
+#: comments-popup.php:39
+msgid "E-mail"
+msgstr ""
+
+#: comments-popup.php:44
+msgid "URL"
+msgstr ""
+
+#: comments-popup.php:50
+msgid "Your Comment"
+msgstr ""
+
+#: comments-popup.php:60
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: comments-popup.php:63
+msgid "Close this window."
+msgstr ""
+
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:13
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:13
+msgid " so far:"
+msgstr ""
+
+#: comments.php:27
+msgid "Comments are closed."
+msgstr ""
+
+#: contact-page.php:36
+msgid "Page Does Not Exist"
+msgstr ""
+
+#: contact-page.php:45
+msgid "Office Address"
+msgstr ""
+
+#: footer.php:13 inc/customizer.php:1179
+msgid "Proudly Powered by WordPress"
+msgstr ""
+
+#: footer.php:14
+#, php-format
+msgid "%s Theme By %s"
+msgstr ""
+
+#: footer.php:17
+msgid "Back To Top"
+msgstr ""
+
+#: functions.php:136
+msgid "Primary Navigation"
+msgstr ""
+
+#: header.php:1
+msgid "Contact:"
+msgstr ""
+
+#: home.php:21
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/child-themes.php:62
+#: inc/admin/welcome-screen/sections/child-themes.php:89
+#: inc/admin/welcome-screen/sections/child-themes.php:145
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/child-themes.php:118
+#, php-format
+msgid "Get %s now"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:14
+msgid "Translate Biznez Lite"
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:65
+msgid "Get started with Biznez Lite"
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:103
+msgid "Hooray! There are no required actions for you right now."
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:140
+msgid "View Theme Info"
+msgstr ""
+
+#: inc/customizer.php:15
+msgid "Home Page Settings"
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:28
+msgid "Notification Bar"
+msgstr ""
+
+#: inc/customizer.php:32
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "About Page"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Contact Page Options"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Slider Configuration"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Featured Box"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Testimonial"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Client Logos"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Call to Action"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Primary Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Header background Color"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid "Logo Image"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Recomended size : 160x35 px"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "154"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Logo Image Width in px"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "37"
+msgstr ""
+
+#: inc/customizer.php:112
+msgid "Enter Logo Image Height in PX."
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Logo Image Height in px"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Breadcrumb ON/OFF"
+msgstr ""
+
+#: inc/customizer.php:126 inc/customizer.php:189
+msgid "ON"
+msgstr ""
+
+#: inc/customizer.php:127 inc/customizer.php:190
+msgid "OFF"
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "Breadcrumb Seperator Type"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Image"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Text"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Breadcrumb Separator Image"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Recomended - width:16px and height:16px"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Breadcrumb Seperator Text"
+msgstr ""
+
+#: inc/customizer.php:170
+msgid "Persistent Navigation ON/OFF"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Custom Pagination"
+msgstr ""
+
+#: inc/customizer.php:204 inc/customizer.php:1216
+msgid "NormalSlider"
+msgstr ""
+
+#: inc/customizer.php:205 inc/customizer.php:1217
+msgid "FullWidthSlider"
+msgstr ""
+
+#: inc/customizer.php:208 inc/customizer.php:219
+msgid "Select Slider Type"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Select slider type for front page."
+msgstr ""
+
+#: inc/customizer.php:221 inc/customizer.php:1230
+msgid "Fade"
+msgstr ""
+
+#: inc/customizer.php:222 inc/customizer.php:1231
+msgid "Horizontal Slide"
+msgstr ""
+
+#: inc/customizer.php:223 inc/customizer.php:1232
+msgid "Vertical Slide"
+msgstr ""
+
+#: inc/customizer.php:224 inc/customizer.php:1233
+msgid "Horizontal Push"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Animation Speed"
+msgstr ""
+
+#: inc/customizer.php:243
+msgid "First Slide Title"
+msgstr ""
+
+#: inc/customizer.php:244
+msgid "Enter title for first slide."
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Upload First Slide Image"
+msgstr ""
+
+#: inc/customizer.php:253 inc/customizer.php:296 inc/customizer.php:339
+msgid "Upload image for front page slider."
+msgstr ""
+
+#: inc/customizer.php:259 inc/customizer.php:302 inc/customizer.php:345
+#: inc/customizer.php:913 inc/customizer.php:987 inc/customizer.php:1060
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy"
+msgstr ""
+
+#: inc/customizer.php:265
+msgid "Content For First Slide"
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "Enter content for first slide."
+msgstr ""
+
+#: inc/customizer.php:276
+msgid "First Slide Link"
+msgstr ""
+
+#: inc/customizer.php:277
+msgid "Enter first slide link."
+msgstr ""
+
+#: inc/customizer.php:286
+msgid "Second Slide Title"
+msgstr ""
+
+#: inc/customizer.php:287
+msgid "Enter title for second slide."
+msgstr ""
+
+#: inc/customizer.php:295
+msgid "Upload Second Slide Image"
+msgstr ""
+
+#: inc/customizer.php:308
+msgid "Content For Second Slide"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid "Enter content for second slide."
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "Second Slide Link"
+msgstr ""
+
+#: inc/customizer.php:320
+msgid "Enter second slide link."
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "Third Slide Title"
+msgstr ""
+
+#: inc/customizer.php:330
+msgid "Enter title for third slide."
+msgstr ""
+
+#: inc/customizer.php:338
+msgid "Upload Third Slide Image"
+msgstr ""
+
+#: inc/customizer.php:351
+msgid "Content For Third Slide"
+msgstr ""
+
+#: inc/customizer.php:352
+msgid "Enter content for third slide."
+msgstr ""
+
+#: inc/customizer.php:362
+msgid "Third Slide Link"
+msgstr ""
+
+#: inc/customizer.php:363
+msgid "Enter third slide link."
+msgstr ""
+
+#: inc/customizer.php:375
+msgid "Enable/Disable Feature Box on Front Page"
+msgstr ""
+
+#: inc/customizer.php:391
+msgid "Select Featured box Type"
+msgstr ""
+
+#: inc/customizer.php:392
+msgid "Select featured box for front page."
+msgstr ""
+
+#: inc/customizer.php:394 inc/customizer.php:1246
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer.php:395 inc/customizer.php:1247
+msgid "Center Content"
+msgstr ""
+
+#: inc/customizer.php:404
+msgid "First Featured Box Heading:"
+msgstr ""
+
+#: inc/customizer.php:405
+msgid "Enter first featured box heading."
+msgstr ""
+
+#: inc/customizer.php:414
+msgid "First Featured Box Icon"
+msgstr ""
+
+#: inc/customizer.php:415
+msgid "Choose image for first featured area."
+msgstr ""
+
+#: inc/customizer.php:423
+msgid "First Featured Box Content"
+msgstr ""
+
+#: inc/customizer.php:424
+msgid "Enter first featured box content."
+msgstr ""
+
+#: inc/customizer.php:436
+msgid "First Featured Box Link:"
+msgstr ""
+
+#: inc/customizer.php:437
+msgid "Enter first featured box link."
+msgstr ""
+
+#: inc/customizer.php:445
+msgid "Second Featured Box Heading:"
+msgstr ""
+
+#: inc/customizer.php:446
+msgid "Enter second featured box heading."
+msgstr ""
+
+#: inc/customizer.php:455
+msgid "Second Featured Box Icon"
+msgstr ""
+
+#: inc/customizer.php:456
+msgid "Choose image for second featured area."
+msgstr ""
+
+#: inc/customizer.php:464
+msgid "Second Featured Box Content"
+msgstr ""
+
+#: inc/customizer.php:465
+msgid "Enter second featured box content."
+msgstr ""
+
+#: inc/customizer.php:477
+msgid "Second Featured Box Link:"
+msgstr ""
+
+#: inc/customizer.php:478
+msgid "Enter second featured box link."
+msgstr ""
+
+#: inc/customizer.php:486
+msgid "Third Featured Box Heading:"
+msgstr ""
+
+#: inc/customizer.php:487
+msgid "Enter third featured box heading."
+msgstr ""
+
+#: inc/customizer.php:496
+msgid "Third Featured Box Icon"
+msgstr ""
+
+#: inc/customizer.php:497
+msgid "Choose image for third featured area."
+msgstr ""
+
+#: inc/customizer.php:505
+msgid "Third Featured Box Content"
+msgstr ""
+
+#: inc/customizer.php:506
+msgid "Enter third featured box content."
+msgstr ""
+
+#: inc/customizer.php:518
+msgid "Third Featured Box Link:"
+msgstr ""
+
+#: inc/customizer.php:519
+msgid "Enter third featured box link."
+msgstr ""
+
+#: inc/customizer.php:528
+msgid "Fourth Featured Box Heading:"
+msgstr ""
+
+#: inc/customizer.php:529
+msgid "Enter forth featured box heading."
+msgstr ""
+
+#: inc/customizer.php:538
+msgid "Fourth Featured Box Icon"
+msgstr ""
+
+#: inc/customizer.php:539
+msgid "Choose image for forth featured area."
+msgstr ""
+
+#: inc/customizer.php:547
+msgid "Fourth Featured Box Content"
+msgstr ""
+
+#: inc/customizer.php:548
+msgid "Enter forth featured box content."
+msgstr ""
+
+#: inc/customizer.php:560
+msgid "Fourth Featured Box Link:"
+msgstr ""
+
+#: inc/customizer.php:561
+msgid "Enter forth featured box link."
+msgstr ""
+
+#: inc/customizer.php:573
+msgid "Enable/Disable Testimonial and Client Box."
+msgstr ""
+
+#: inc/customizer.php:583 inc/customizer.php:605 inc/customizer.php:626
+#: inc/customizer.php:648 inc/customizer.php:669
+#: inc/front-testimonial-section.php:9
+msgid "Testimonials"
+msgstr ""
+
+#: inc/customizer.php:587
+msgid "Testimonial Heading Text"
+msgstr ""
+
+#: inc/customizer.php:588
+msgid "Enter testimonial heading text."
+msgstr ""
+
+#: inc/customizer.php:598
+msgid "First Testimonial Box Content"
+msgstr ""
+
+#: inc/customizer.php:599
+msgid "Enter first testimonial box content."
+msgstr ""
+
+#: inc/customizer.php:609
+msgid "First Testimonial Author"
+msgstr ""
+
+#: inc/customizer.php:610
+msgid "Enter first testimonial author."
+msgstr ""
+
+#: inc/customizer.php:621
+msgid "First Testimonial Author Link"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "Enter first testimonial author link."
+msgstr ""
+
+#: inc/customizer.php:630
+msgid "First Testimonial Author Link Text"
+msgstr ""
+
+#: inc/customizer.php:631
+msgid "Enter first testimonial author link text."
+msgstr ""
+
+#: inc/customizer.php:641
+msgid "Second Testimonial Box Content"
+msgstr ""
+
+#: inc/customizer.php:642
+msgid "Enter second testimonial box content."
+msgstr ""
+
+#: inc/customizer.php:652
+msgid "Second Testimonial Author"
+msgstr ""
+
+#: inc/customizer.php:653
+msgid "Enter second testimonial author."
+msgstr ""
+
+#: inc/customizer.php:664
+msgid "Second Testimonial Author Link"
+msgstr ""
+
+#: inc/customizer.php:665
+msgid "Enter second testimonial author link."
+msgstr ""
+
+#: inc/customizer.php:673
+msgid "Second Testimonial Author Link Text"
+msgstr ""
+
+#: inc/customizer.php:674
+msgid "Enter second testimonial author link text."
+msgstr ""
+
+#: inc/customizer.php:687
+msgid "Client Title"
+msgstr ""
+
+#: inc/customizer.php:688
+msgid "Enter client title."
+msgstr ""
+
+#: inc/customizer.php:698 inc/customizer.php:719
+msgid "First Client Logo Image"
+msgstr ""
+
+#: inc/customizer.php:699 inc/customizer.php:720
+msgid "Upload image for first client logo area."
+msgstr ""
+
+#: inc/customizer.php:709 inc/customizer.php:730
+msgid "First Client Logo Image Link"
+msgstr ""
+
+#: inc/customizer.php:710 inc/customizer.php:731
+msgid "Enter link for first client logo image."
+msgstr ""
+
+#: inc/customizer.php:740
+msgid "Second Client Logo Image"
+msgstr ""
+
+#: inc/customizer.php:741
+msgid "Upload image for second client logo area."
+msgstr ""
+
+#: inc/customizer.php:751
+msgid "Second Client Logo Image Link"
+msgstr ""
+
+#: inc/customizer.php:752
+msgid "Enter link for second client logo image."
+msgstr ""
+
+#: inc/customizer.php:761
+msgid "Third Client Logo Image"
+msgstr ""
+
+#: inc/customizer.php:762
+msgid "Upload image for third client logo area."
+msgstr ""
+
+#: inc/customizer.php:772
+msgid "Third Client Logo Image Link"
+msgstr ""
+
+#: inc/customizer.php:773
+msgid "Enter link for third client logo image."
+msgstr ""
+
+#: inc/customizer.php:782
+msgid "Fourth Client Logo Image"
+msgstr ""
+
+#: inc/customizer.php:783
+msgid "Upload image for fourth client logo area."
+msgstr ""
+
+#: inc/customizer.php:793
+msgid "Fourth Client Logo Image Link"
+msgstr ""
+
+#: inc/customizer.php:794
+msgid "Enter link for fourth client logo image."
+msgstr ""
+
+#: inc/customizer.php:803
+msgid "Fifth Client Logo Image"
+msgstr ""
+
+#: inc/customizer.php:804
+msgid "Upload image for fifth client logo area."
+msgstr ""
+
+#: inc/customizer.php:814
+msgid "Fifth Client Logo Image Link"
+msgstr ""
+
+#: inc/customizer.php:815
+msgid "Enter link for fifth client logo image."
+msgstr ""
+
+#: inc/customizer.php:824
+msgid "Sixth Client Logo Image"
+msgstr ""
+
+#: inc/customizer.php:825
+msgid "Upload image for sixth client logo area."
+msgstr ""
+
+#: inc/customizer.php:835
+msgid "Sixth Client Logo Image Link"
+msgstr ""
+
+#: inc/customizer.php:836
+msgid "Enter link for sixth client logo image."
+msgstr ""
+
+#: inc/customizer.php:848
+msgid "Enable/Disable Front Content Box."
+msgstr ""
+
+#: inc/customizer.php:862
+msgid "Front Content Box"
+msgstr ""
+
+#: inc/customizer.php:863
+msgid "Enter front content box content."
+msgstr ""
+
+#: inc/customizer.php:875
+msgid "Front Content Box Button Link"
+msgstr ""
+
+#: inc/customizer.php:876
+msgid "Enter front content box button link."
+msgstr ""
+
+#: inc/customizer.php:886
+msgid "Team Member Heading Text"
+msgstr ""
+
+#: inc/customizer.php:887
+msgid "Change team member heading text."
+msgstr ""
+
+#: inc/customizer.php:896
+msgid "First Team Member Name"
+msgstr ""
+
+#: inc/customizer.php:897
+msgid "Enter name of first team member."
+msgstr ""
+
+#: inc/customizer.php:906
+msgid "Upload First Team Member Image"
+msgstr ""
+
+#: inc/customizer.php:907 inc/customizer.php:981 inc/customizer.php:1054
+msgid "upload image for team member. Size: Width 180px and Height 180px."
+msgstr ""
+
+#: inc/customizer.php:919
+msgid "First Team Member Content"
+msgstr ""
+
+#: inc/customizer.php:920
+msgid "Enter content for first team member."
+msgstr ""
+
+#: inc/customizer.php:928
+msgid "First Team Member Job Title"
+msgstr ""
+
+#: inc/customizer.php:929
+msgid "Enter job title for first team member ."
+msgstr ""
+
+#: inc/customizer.php:940
+msgid "First Team Member Facebook url"
+msgstr ""
+
+#: inc/customizer.php:941
+msgid "Enter first team member facebook url."
+msgstr ""
+
+#: inc/customizer.php:951
+msgid "First Team Member Twitter url"
+msgstr ""
+
+#: inc/customizer.php:952
+msgid "Enter first team member twitter url."
+msgstr ""
+
+#: inc/customizer.php:962
+msgid "First Team Member Dribbble  url"
+msgstr ""
+
+#: inc/customizer.php:963
+msgid "Enter first team member dribbble  url."
+msgstr ""
+
+#: inc/customizer.php:970
+msgid "Second Team Member Name"
+msgstr ""
+
+#: inc/customizer.php:971
+msgid "Enter name of second team member."
+msgstr ""
+
+#: inc/customizer.php:980
+msgid "Upload Second Team Member Image"
+msgstr ""
+
+#: inc/customizer.php:993
+msgid "Second Team Member Content"
+msgstr ""
+
+#: inc/customizer.php:994
+msgid "Enter content for second team member."
+msgstr ""
+
+#: inc/customizer.php:1001
+msgid "Second Team Member Job Title"
+msgstr ""
+
+#: inc/customizer.php:1002
+msgid "Enter job title for second team member."
+msgstr ""
+
+#: inc/customizer.php:1013
+msgid "Second Team Member Facebook url"
+msgstr ""
+
+#: inc/customizer.php:1014
+msgid "Enter second team member facebook url."
+msgstr ""
+
+#: inc/customizer.php:1024
+msgid "Second Team Member Twitter url"
+msgstr ""
+
+#: inc/customizer.php:1025
+msgid "Enter second team member twitter url."
+msgstr ""
+
+#: inc/customizer.php:1035
+msgid "Second Team Member Dribbble  url"
+msgstr ""
+
+#: inc/customizer.php:1036
+msgid "Enter second team member dribbble  url."
+msgstr ""
+
+#: inc/customizer.php:1043
+msgid "Third Team Member Name"
+msgstr ""
+
+#: inc/customizer.php:1044
+msgid "Enter name of third team member."
+msgstr ""
+
+#: inc/customizer.php:1053
+msgid "Upload Third Team Member Image"
+msgstr ""
+
+#: inc/customizer.php:1066
+msgid "Third Team Member Content"
+msgstr ""
+
+#: inc/customizer.php:1067
+msgid "Enter content for third team member."
+msgstr ""
+
+#: inc/customizer.php:1074
+msgid "Third Team Member Job Title"
+msgstr ""
+
+#: inc/customizer.php:1075
+msgid "Enter job title for third team member ."
+msgstr ""
+
+#: inc/customizer.php:1086
+msgid "Third Team Member Facebook url"
+msgstr ""
+
+#: inc/customizer.php:1087
+msgid "Enter third team member facebook url."
+msgstr ""
+
+#: inc/customizer.php:1097
+msgid "Third Team Member Twitter url"
+msgstr ""
+
+#: inc/customizer.php:1098
+msgid "Enter third team member twitter url."
+msgstr ""
+
+#: inc/customizer.php:1108
+msgid "Third Team Member Dribbble  url"
+msgstr ""
+
+#: inc/customizer.php:1109
+msgid "Enter third team member dribbble  url."
+msgstr ""
+
+#: inc/customizer.php:1121
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer.php:1122
+msgid "Put your phone number here to show in mobile view in header."
+msgstr ""
+
+#: inc/customizer.php:1131
+msgid "Address Title"
+msgstr ""
+
+#: inc/customizer.php:1132
+msgid "Put your address title here."
+msgstr ""
+
+#: inc/customizer.php:1136
+msgid ""
+"Biznez<br />\n"
+"\t\t\t\t\t\tForever Street 862<br />\n"
+"\t\t\t\t\t\tNSW - 125 - CA<br /><br />\n"
+"\t\t\t\t\t\tPhone: 123-456-7891<br />\n"
+"\t\t\t\t\t\tFax: 123-456-7891<br />"
+msgstr ""
+
+#: inc/customizer.php:1146
+msgid "Address Area (Put Your Address and Map Iframe Here)"
+msgstr ""
+
+#: inc/customizer.php:1147
+msgid "Put your address here."
+msgstr ""
+
+#: inc/customizer.php:1159
+msgid "Notification Bar On/Off"
+msgstr ""
+
+#: inc/customizer.php:1161
+msgid "On"
+msgstr ""
+
+#: inc/customizer.php:1162
+msgid "Off"
+msgstr ""
+
+#: inc/customizer.php:1171
+msgid "Notification Content"
+msgstr ""
+
+#: inc/customizer.php:1172
+msgid "You can use HTML.."
+msgstr ""
+
+#: inc/customizer.php:1184
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/front-cta-section.php:5
+msgid "This is beautiful, Clean and easy to customize, unique, reZsponsive Wordpress theme With lot&#39;s of shortcodes and features and perfectly suitable for any kind of business."
+msgstr ""
+
+#: inc/front-cta-section.php:9
+msgid "Download Theme"
+msgstr ""
+
+#: inc/front-feature-box-section.php:10 inc/front-feature-box-section.php:21
+#: inc/front-feature-box-section.php:32 inc/front-feature-box-section.php:43
+#: inc/front-feature-box-section.php:77 inc/front-feature-box-section.php:105
+#: inc/front-feature-box-section.php:133 inc/front-feature-box-section.php:161
+msgid "creative"
+msgstr ""
+
+#: inc/front-feature-box-section.php:12 inc/front-feature-box-section.php:23
+#: inc/front-feature-box-section.php:34 inc/front-feature-box-section.php:45
+#: inc/front-feature-box-section.php:81 inc/front-feature-box-section.php:109
+#: inc/front-feature-box-section.php:137 inc/front-feature-box-section.php:165
+msgid "We have the most talented people in house that are excited to start with your new project. It is the drive that makes them creative."
+msgstr ""
+
+#: inc/front-feature-box-section.php:13 inc/front-feature-box-section.php:24
+#: inc/front-feature-box-section.php:35 inc/front-feature-box-section.php:46
+#: inc/front-feature-box-section.php:83 inc/front-feature-box-section.php:111
+#: inc/front-feature-box-section.php:139 inc/front-feature-box-section.php:167
+msgid "Read more"
+msgstr ""
+
+#: inc/front-testimonial-section.php:14
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet tortor id ligula vulputate volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+msgstr ""
+
+#: inc/front-testimonial-section.php:17
+msgid "Jack Dowd"
+msgstr ""
+
+#: inc/front-testimonial-section.php:18
+msgid "Stocker"
+msgstr ""
+
+#: inc/front-testimonial-section.php:25
+msgid "In non mollis tortor. Sed libero augue, venenatis vitae lobortis vel, lobortis id dolor. Curabitur iaculis varius elit, accumsan malesuada urna vulputate eget,lobortis id dolor."
+msgstr ""
+
+#: inc/front-testimonial-section.php:28
+msgid "Rene Merino"
+msgstr ""
+
+#: inc/front-testimonial-section.php:29
+msgid "Amaya Media"
+msgstr ""
+
+#: inc/front-testimonial-section.php:39
+msgid "Our Clients"
+msgstr ""
+
+#: search.php:1
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:1
+msgid "Search Result Not Found"
+msgstr ""
+
+#: sidebar-woocommerce.php:9
+msgid "Archives"
+msgstr ""
+
+#: single.php:70
+msgid "This entry was posted in "
+msgstr ""
+
+#: single.php:71
+msgid " and tagged "
+msgstr ""
+
+#: tag.php:25
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: template-about-page.php:65
+msgid "Our Team member"
+msgstr ""
+
+#: template-about-page.php:80 template-about-page.php:106
+#: template-about-page.php:133
+msgid "Member Name"
+msgstr ""
+
+#: template-about-page.php:83 template-about-page.php:109
+#: template-about-page.php:136
+msgid "Lorem ipsum dolor sit amet consetteture lap lasefro."
+msgstr ""
+
+#: template-sitemap.php:55
+msgid "Pages"
+msgstr ""
+
+#: template-sitemap.php:63
+msgid "Categories"
+msgstr ""
+
+#: template-sitemap.php:71
+msgid "Blog Entries"
+msgstr ""
+
+#: template-sitemap.php:123
+msgid "Posts Per Category"
+msgstr ""

@@ -1,0 +1,40 @@
+/*-- Comparebar Admin Style
+------------------------------------*/
+
+/*-- Add Comparebar Style
+------------------------------------*/
+#cbar_addwrap{width:850px;}
+#cbar_addwrap a{outline:none;}
+#cbar_addwrap table.cbar_struct{background: none repeat scroll 0 0 #F3F3F3;border: 1px solid #125E7C;border-radius: 3px 3px 3px 3px;margin-top: 10px;padding: 0;width: 100%;}
+#cbar_addwrap table.cbar_struct th{background: none repeat scroll 0 0 #125E7C;border-bottom: 1px dashed #FAFAFA;color: #FAFAFA;font-size: 17px;padding:15px 0px;text-transform: uppercase;}
+#cbar_addwrap table.cbar_struct .cbar_tr{color:#125E7C;font-size: 13px;font-weight: bold;text-align: center;}
+#cbar_addwrap table.cbar_struct .cbar_tr td{padding:10px 0px;border-bottom: 1px dashed #556b8e;}
+#cbar_addwrap table.cbar_struct .cbar_tr1 td{border-bottom: 1px dashed #e4e4e4;}
+#cbar_addwrap table.cbar_struct .cbar_tr2{text-align:center;}
+#cbar_addwrap table.cbar_struct .cbar_tr2 td{padding:10px 0px;line-height: 10px;background: none repeat scroll 0 0 #AFD6E6;}
+#cbar_addwrap table.cbar_struct .cbar_tr2 td:first-child{border-radius:0px 0 0 3px;}
+#cbar_addwrap table.cbar_struct .cbar_tr2 td:last-child{border-radius:0 0px 3px 0;}
+#cbar_addwrap table.cbar_struct input[type="text"]{border-color:#7C7C7C;}
+#cbar_addwrap table.cbar_struct .cbar_del{background:rgb(249, 174, 174);border: 1px solid rgb(132, 6, 6);color: rgb(164, 11, 11);text-shadow: none;}
+#cbar_addwrap table.cbar_struct .cbar_del:hover{background:#FC7E7E;}
+#cbar_addwrap table.cbar_struct .cbar_addbutton{background: none repeat scroll 0 0 #2F4E7D;border: 0 none; border-radius: 2px 2px 2px 2px; font-family: helvetica; font-size: 13px; font-weight: bold; margin-right: -10px; text-transform: uppercase;} 	
+#cbar_addwrap table.cbar_struct .cbar_addbutton:hover{background:#0C2C5B;}
+#cbar_addwrap table.cbar_struct .button[disabled]{pointer-events: none;}
+#cbar_message.cbar_updated{background: none repeat scroll 0 0 #555555; border-radius: 3px 3px 3px 3px; color: #FFFFFF; font-weight: bold; line-height: 30px; text-align: center; width: 460px;font-family: verdana;} 
+.cbar_wrap .cbar_icon{background: url("../../images/cbar_icon.png") no-repeat scroll 0 0 transparent;}
+#cbar_message.cbar_updated.cbar_add{width:850px;}
+.cbar_iframe{border:1px solid #dfdfdf;padding:4px;border-radius:2px;margin-top:4px;}
+
+/*-- Edit Comparebar Style
+------------------------------------*/
+#cbar_editwrap{}
+#cbar_editwrap .cbar_editform{width:500px;}
+#cbar_editwrap table td{padding:8px 1px;}
+#cbar_editwrap table td:first-child{font-size:12px;width:140px;font-weight:bold;}
+#cbar_editwrap table input[type="text"]{}
+#cbar_editwrap .cbar_colwrap{position:relative;width:86px;display:inline-block;}	
+#cbar_editwrap .cbar_colwrap .cbar_color_inp{width:86px;height:23px;}
+#cbar_editwrap .cbar_colsel{ background: url("../../images/color_pick.png") repeat scroll 0 0 rgba(0, 0, 0, 0); border-bottom: 1px solid #CCCCCC; border-radius: 2px; cursor: pointer; height: 22px; margin-top: 1px; position: absolute; right: -10px; top: 0; width: 22px;} 	
+#cbar_editwrap .cbar_colsel .farbtastic{z-index: 1;display:none;position:absolute;top:8px;}
+#cbar_editwrap .cbar_disimg{background: none repeat scroll 0 0 #E4E4E4;border: 1px solid #CACACA; padding: 2px;width:60px;margin-left: 3px;} 
+#adminmenuwrap .wp-submenu a[href="admin.php?page=cbar_edit"]{display:none;}
